@@ -1,0 +1,32 @@
+:root {
+  --font-base: Inter, sans-serif;
+
+  --primary-color: #36454f;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* 
+
+Dark Gray: #333333
+Black: #000000
+Midnight Blue: #121212
+Charcoal: #36454F
+Text Colors:
+
+White: #FFFFFF
+Off-White: #F2F2F2 or #E0E0E0
+Light Gray: #CCCCCC
+Pastel Colors (various): Examples include #FFD700 (light yellow), #87CEEB (light sky blue), #90EE90 (light green), etc.
+*/
