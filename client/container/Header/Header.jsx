@@ -18,7 +18,7 @@ const Header = () => {
   const headCircles = [
     "/images/logo1.png",
     "/images/node.png",
-    "/images/redux.png",
+    "/images/next.svg",
   ];
   return (
     <div id="home" className="app__header app__flex">

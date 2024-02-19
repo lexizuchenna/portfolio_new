@@ -5,8 +5,8 @@ import "./SkeletonLoader.scss"; // Import CSS for styling
 function SkeletonLoader() {
   return (
     <div id="card">
-      <div class="card-image">
-        <div class="block pulsate"></div>
+      <div className="card-image">
+        <div className="block pulsate"></div>
         <svg
           className="fpo "
           width="84px"
@@ -20,7 +20,7 @@ function SkeletonLoader() {
         >
           <g
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
             fillRule="evenodd"
             transform="translate(-964.000000, -1012.000000)"
@@ -46,10 +46,10 @@ function SkeletonLoader() {
           </g>
         </svg>
       </div>
-      <div class="card-content">
-        <div class="block2 pulsate"></div>
-        <div class="block3 pulsate"></div>
-        <div class="circle pulsate"></div>
+      <div className="card-content">
+        <div className="block2 pulsate"></div>
+        <div className="block3 pulsate"></div>
+        <div className="circle pulsate"></div>
         <div style={{ clear: "both" }}></div>
       </div>
     </div>
