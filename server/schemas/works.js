@@ -44,7 +44,7 @@ export default {
       name: 'tags',
       title: 'Tags',
       type: 'array',
-      initialValue: ['Next JS', 'Mobile App', 'Web App', 'Node JS', 'React JS', 'All'],
+      initialValue: ['Next JS', 'Mobile App', 'Web App', 'Node JS', 'React JS'],
       of: [
         {
           name: 'tag',
